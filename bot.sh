@@ -11,6 +11,6 @@ done
 for (( i=0;i<$bots;i++ ))
 do
 sleep 1
-chromium $url &
+google-chrome $url &
 echo "Adding boot $i"
 done
